@@ -32,12 +32,6 @@ body {
     color: green;
 }
 
-.menu-container {
-    position: absolute;
-    top: 30px;
-    right: 5px;
-}
-
 nav li {
     display: inline-block;
 }
@@ -59,11 +53,19 @@ section h1 {
     padding-bottom: 70px;
 }
 
-#menu-nav {
+#nav-container {
+    position: fixed;
+    top: 0;
     width: 100vw;
-    height: 20vh;
+    height: 13vh;
     background-color: red;
-    position: relative;
+    z-index: 10;
+}
+
+#menu-container {
+    position: absolute;
+    top: 30px;
+    right: 20px;
 }
 
 #red-section {
