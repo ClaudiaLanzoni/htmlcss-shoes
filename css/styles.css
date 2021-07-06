@@ -8,20 +8,13 @@ body {
     font-family: 'Alfa Slab One', cursive;
 }
 
-a {
+.circle {
     height: 30px;
     width: 30px;
     background-color: white;
+    padding: 10px 15px;
     border-radius: 50%;
-    text-decoration: none;
-    color: black;
-    /*position: absolute;
-    left: 80px;*/
-}
-
-img {
-    width: 350px;
-    height: 350px;
+    margin-right: 10px;
 }
 
 .item {
@@ -39,22 +32,38 @@ img {
     color: green;
 }
 
-nav li {
-    display: inline-block;
-    position: relative;
+.menu-container {
+    position: absolute;
+    top: 30px;
+    right: 5px;
 }
 
-section .item {
+nav li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+section img {
+    width: 350px;
+    height: 350px;
+}
+
+section h1 {
     text-transform: uppercase;
     font-size: 1.5em;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
-#menu-scelta {
+#menu-nav {
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
     background-color: red;
+    position: relative;
 }
 
 #red-section {
